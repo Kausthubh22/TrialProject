@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Sign In Page </title>
+<link rel="stylesheet" href="New.css">
+<script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.8.4/firebase-auth-compat.js"></script>
+</head>
+
+<body>
+  
+<div id="login-box">
+  <div class="left">
+    <h1 id='status'>Sign In </h1>
+
+    <input type="text" id="email" name="email" placeholder="E-mail" />
+    <input type="password" id="password" name="password" placeholder="Password" />
+      
+    <input type="submit" id='login' name="login" value="Login" onclick="signIn()" />
+
+  </div>
+  
+  <!-- <div class="right">
+    <span class="loginwith" >Sign in with<br />social network</span>
+    
+    <button class="social-signin facebook">Log in with facebook</button>
+    <button class="social-signin twitter">Log in with Twitter</button>
+    <button class="social-signin google">Log in with Google+</button>
+  </div>
+  <div class="or">OR</div>
+</div> -->
+
+<script src="New.js"></script>
+</body>
+
+</html>
