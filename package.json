@@ -1,0 +1,23 @@
+{
+  "name": "naruto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kausthubh22/TrialProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kausthubh22/TrialProject/issues"
+  },
+  "homepage": "https://github.com/Kausthubh22/TrialProject#readme",
+  "dependencies": {
+    "firebase": "^9.8.4"
+  }
+}
